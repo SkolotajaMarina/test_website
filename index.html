@@ -170,6 +170,76 @@
                 transform: translateY(-100%);
             }
         }
+
+        @media screen and (max-width: 768px) {
+    .header {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .header img {
+        height: 100px;
+        margin-top: 10px;
+    }
+
+    h1 {
+        font-size: 36px;
+        padding-left: 0;
+    }
+
+    h2 {
+        font-size: 24px;
+        text-align: center;
+    }
+
+    .text-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .text-container h3 {
+        width: 90%;
+        margin: 10px 0;
+        padding-left: 0;
+        margin-left: 0;
+        margin-right: 0;
+        font-size: 16px;
+    }
+
+    .text-container img {
+        width: 90%;
+        margin-left: 0;
+        margin-top: 10px;
+    }
+
+    .roll-container {
+        display: none; /* Slēpt "roll" lodziņu telefonos */
+    }
+
+    .slider {
+        height: 200px;
+    }
+
+    .slide {
+        width: 300px;
+        height: 200px;
+    }
+
+    .menu-button {
+        width: 100%;
+        font-size: 18px;
+    }
+
+    .dropdown {
+        width: 100%;
+    }
+
+    .dropdown a {
+        font-size: 16px;
+    }
+}
+
     </style>
 </head>
 <body>
